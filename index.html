@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <title>Base-Apparel</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="col-12 xs-12">
+        <div class="container">
+            <div class="col-6 xs-12 off-1">
+                <div class="container">
+                    <img src="./images/logo.svg" class="down-10 xsdown-7 xsoff-1">
+                    <!--Image container for Mobile-->
+                    <div class="xs-12 xsdown-7 hidden-lg">
+                        <div>
+                            <img src="./images/hero-mobile.jpg" alt="a model" class="img-2">
+                        </div>                       
+                    </div>
+                    <div class="down-10 xs-container xsdown-6">
+                        <div class="fw-1">W E' R E</div>
+                        <div class="fw-2">C O M I N G</div> 
+                        <div class="fw-2">S O O N</div>        
+                    </div>
+                    <div class="fw-3 down-5 xs-container xsdown-5">
+                        <span>
+                            Hello fellow shoppers! We're currently building our new <br />
+                            fashion store. Add your email below to stay up to date with <br />
+                            announcements and our launch deals.
+                        </span>
+                    </div>
+                    <!--Email Validation and Button Section -->
+                    <div class="down-3 xs-container xsdown-5 pd-1">
+                        <form name="form1" action="#" method="POST">
+                            <input type="text" name="emailAddr" placeholder="Email Address" class="br-1">
+                            <button type="button" class="btn-sm btn-sm2" onclick="validateEmail(document.form1.emailAddr)"><img src="./images/icon-arrow.svg" style="height: 15px"></button>
+                        </form>
+                    </div>
+                </div>                    
+            </div>
+            <!--Image container for laptop-->
+            <div class="col-4 hidden-xs">
+                <div class="container">
+                    <img src="./images/hero-desktop.jpg" alt="a model" class="img-1">
+                </div>
+            </div>
+        </div>
+    </div>  
+</body>
+<script src="script.js"></script>
+</html>
